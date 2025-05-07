@@ -6,6 +6,9 @@ function formatString(input: string, toUpper: boolean = true): string {
 // console.log(formatString("hello", true));
 
 
+
+
+
 function filterByRating(items: { title: string; rating: number }[]): 
   { title: string; rating: number }[] {
     return items.filter(item => item.rating >= 4)
@@ -19,5 +22,22 @@ const books = [
 ]
   
 // console.log(filterByRating(books));
+
+
+
+
+
+
+
+function concatenateArrays<T>(...arrays: T[][]): T[] {
+    return arrays.flat();
+}
+
+console.log(concatenateArrays(["a", "b"], ["c"]));
+  // Output: ["a", "b", "c"]
+  
+console.log(concatenateArrays([1, 2], [3, 4], [5]));
+  // Output: [1, 2, 3, 4, 5]
+    
  
   
