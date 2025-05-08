@@ -1,6 +1,6 @@
 # Blog Task 
 
-### Q-4: What is the use of enums in TypeScript? Provide an example of a numeric and string enum. 
+# Q-4: What is the use of enums in TypeScript? Provide an example of a numeric and string enum. 
 
 In TypeScript, an enum (full form: enumeration) is used to give names to a set of related values.
 Enums make code easier to read, write, and maintain.
