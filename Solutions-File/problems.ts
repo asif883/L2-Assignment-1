@@ -3,7 +3,7 @@ function formatString(input: string, toUpper: boolean = true): string {
 }
 
 
-console.log(formatString("hello", true));
+// console.log(formatString("hello", true));
 
 
 
@@ -15,13 +15,13 @@ function filterByRating(items: { title: string; rating: number }[]):
 }
 
 
-const books = [
-    { title: "Book A", rating: 4.5 },
-    { title: "Book B", rating: 3.2 },
-    { title: "Book C", rating: 5.0 }
-]
+// const books = [
+//     { title: "Book A", rating: 4.5 },
+//     { title: "Book B", rating: 3.2 },
+//     { title: "Book C", rating: 5.0 }
+// ]
   
-filterByRating((books));
+// filterByRating((books));
 
 
 
@@ -35,7 +35,7 @@ function concatenateArrays<T>(...arrays: T[][]): T[] {
 
 
 
-console.log(concatenateArrays([1, 2], [3, 4], [5]));
+// console.log(concatenateArrays([1, 2], [3, 4], [5]));
 
   
 
@@ -71,10 +71,10 @@ class Vehicle {
 }
   
 
-const myCar = new Car("Toyota", 2020, "Corolla");
+// const myCar = new Car("Toyota", 2020, "Corolla");
 
-console.log(myCar.getInfo());   
-console.log(myCar.getModel());  
+// console.log(myCar.getInfo());   
+// console.log(myCar.getModel());  
 
 
 
@@ -89,8 +89,8 @@ function processValue(value: string | number): number {
   }
 
   
-console.log(processValue("hello")); 
-console.log(processValue(10));
+// console.log(processValue("hello")); 
+// console.log(processValue(10));
 
 
 
@@ -112,13 +112,13 @@ interface Product {
   }
 
   
-  const products = [
-    { name: "Pen", price: 10 },
-    { name: "Notebook", price: 25 },
-    { name: "Bag", price: 50 }
-  ];
+  // const products = [
+  //   { name: "Pen", price: 10 },
+  //   { name: "Notebook", price: 25 },
+  //   { name: "Bag", price: 50 }
+  // ];
   
-  console.log(getMostExpensiveProduct(products));
+  // console.log(getMostExpensiveProduct(products));
 
 
   
@@ -137,14 +137,14 @@ interface Product {
   }
   
   function getDayType(day: Day): string {
-    if (day === Day.Saturday || day === Day.Sunday) {
+    if (day === Day.Friday || day === Day.Saturday) {
       return "Weekend";
     }
     return "Weekday";
   }
   
-  console.log(getDayType(Day.Monday)); 
-  console.log(getDayType(Day.Sunday)); 
+  // console.log(getDayType(Day.Friday)); 
+  // console.log(getDayType(Day.Saturday)); 
 
   
 
@@ -164,6 +164,6 @@ async function squareAsync(n: number): Promise<number> {
 }
 
   
-  squareAsync(4).then(console.log);        
-  squareAsync(-3).catch(console.error); 
+  // squareAsync(4).then(console.log);        
+  // squareAsync(-3).catch(console.error); 
   
