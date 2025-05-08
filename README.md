@@ -44,3 +44,18 @@ console.log(current); // Output: "SUCCESS"
 ```
 - Each enum value is a string.
 - Useful for readable messages.
+
+
+
+# Q-5 What is type inference in TypeScript? Why is it helpful?
+
+Type inference in TypeScript means TypeScript can guess the type of a variable when we don't write it.
+
+For example, if I write let age = 25; 
+TypeScript knows that age is a number — even if I didn’t write age : number.
+
+
+## Why should we use inference?
+
+Inference is helpful because it saves time, makes the code shorter, and keeps it safe.
+It also helps with auto-complete and catches errors early.
